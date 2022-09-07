@@ -45678,7 +45678,7 @@ while(true)switch(s){case 0:i=Date.now()
 h=$.a3h()
 c=J
 s=3
-return A.a_(h.dD(0,"template/registration_form.png"),$async$tX)
+return A.a_(h.dD(0,"assets/template/registration_form.png"),$async$tX)
 case 3:g=c.j0(a0)
 f=A.a([],t.gf)
 e=A.aV(t.If)
@@ -45701,7 +45701,7 @@ A.db(d.d,"catalog")
 d.d=p
 c=A
 s=4
-return A.a_(h.dD(0,"fonts/time_new_roman.ttf"),$async$tX)
+return A.a_(h.dD(0,"assets/fonts/time_new_roman.ttf"),$async$tX)
 case 4:l=new c.Vx(a0,null)
 k=A.EU(null,null,null,null,null,null,l,null,null,B.eP,null,null,13,null,null,null,!0,null,null,null,null)
 j=A.EU(null,null,null,null,null,null,l,null,null,B.eP,null,null,14,null,null,null,!0,null,null,null,null)
