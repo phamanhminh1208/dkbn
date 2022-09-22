@@ -47396,7 +47396,8 @@ s=r.z
 return A.am(["cloudId",q,"name",p,"position",o,"username",n,"password",m,"isEncrypted",l,"registryCenterId",k,"registryCenterName",j,"isDeleted",i,"createdTime",h,"modifiedTime",s!=null&&!a?A.Gf(1000*s.a):null],t.N,t.z)},
 ed(){return this.wC(!1)},
 IC(){var s=this
-if(!s.f)s.e=A.aN0(s.d,s.e)}}
+if(!s.f){s.e=A.aN0(s.d,s.e)
+s.f=!0}}}
 A.te.prototype={
 j(a){return"SavingState."+this.b}}
 A.rB.prototype={
@@ -48461,8 +48462,9 @@ A.v(a,B.f,k).toString
 q=t.N
 q=A.am(["employee",r,"manager",A.z("Qu\u1ea3n l\xfd",o,"positionManager",A.a([],s),o)],q,q).h(0,c.c)
 r=A.aj(q==null?"":q,o,o,o,o,B.r,o)
-q=c.w
-q=A.aj(q==null?"":q,o,o,o,o,B.r,o)
+if(c.r!=null&&c.w!=null){q=c.w
+q.toString}else q=""
+q=A.aj(q,o,o,o,o,B.r,o)
 A.v(a,B.f,k).toString
 p=A.is(o,B.kp,o,new A.axU(this,c,a),A.z("Xem chi ti\u1ebft",o,"viewDetails",A.a([],s),o))
 A.v(a,B.f,k).toString
